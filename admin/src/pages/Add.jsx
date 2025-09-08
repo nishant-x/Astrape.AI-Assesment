@@ -50,7 +50,7 @@ const Add = ({ token }) => {
       }
     } catch (error) {
       console.error(error);
-      toast.error("Something went wrong");
+      toast.error("File size should be max 2mb");
     }
   };
 
